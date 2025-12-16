@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Happy+Monkey&family=Julius+Sans+One&display=swap');
+*{
+    
+    color: white;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    
+    background: linear-gradient(90deg, #401A78 0%, #0B042C 98.55%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(146.66deg, #0B0323 16.75%, #000000 88.04%);
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    list-style: none;
+
+    width: 100%;
+    
+}
+
+
+
+.logo{
+
+    width: 52px;
+    height: 52px;
+
+    margin-left: 50%;
+}
+
+.nav-link{
+    white-space: nowrap;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.main-content{
+    
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    
+}
+
+.main-content-div{
+    
+    width: 909px;
+
+
+    background: linear-gradient(180deg, #401A78 0%, #0B042C 99.52%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    position: relative;
+
+    z-index: -1;
+    
+}
+
+.main-content-text{
+
+    font-size: 48px;
+    font-weight: lighter;
+
+}
+
+.main-content-decoration{
+
+    background: linear-gradient(180deg, #401A78 0%, #0B042C 99.52%);
+    
+    
+    width: 370px;
+    height: 100%;
+
+    border-radius: 0 50% 50% 0;
+
+    position: absolute;
+    left: 85%;
+
+    overflow: hidden; 
+
+    filter: blur(40px);
+
+    z-index: 999;
+
+}
+
+
+/*
+
+position: absolute;
+left: 38.46%;
+right: 41.07%;
+top: 0%;
+bottom: 0.33%;
+
+background: linear-gradient(180deg, #13042F 0%, #3D0D95 100%);
+opacity: 0.9;
+filter: blur(40.6px);
+*/
+
+.main-content-image{
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+    height: auto;
+
+    z-index: -999;
+
+}
+
+.title{
+
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.recap-div{
+
+    width: 100%;
+
+    background: radial-gradient(151.52% 17.95% at 5% 34.87%, #212943 0%, #111325 100%);
+    
+    position: relative;
+
+    z-index: 1;
+
+}
+
+.recap-text{
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 2% 10% 2% 5%;
+}
+
+.recap-decoration{
+
+    background: radial-gradient(151.52% 17.95% at 50% 34.87%, #212943 0%, #111325 100%);
+
+    width: 300px;
+    height: 48.5%;
+
+    position: absolute;
+    left: 36%;
+   
+    border-radius: 50% 0 0 50%;
+
+}
+
+.character-text{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 2% 10% 2% 5%;
+}
