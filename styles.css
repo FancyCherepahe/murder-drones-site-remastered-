@@ -185,7 +185,7 @@ filter: blur(40.6px);
 
     position: absolute;
     top: auto;
-    left: 30%;
+    left: 40%;
    
     border-radius: 50% 0 0 50%;
 
@@ -206,12 +206,26 @@ filter: blur(40.6px);
 
 }
 
-.uzi-description{
-    
-    width: 100%;
+.character-description{
 
-    background: linear-gradient(180deg, #130724 0%, #000000 99.52%);
+    width: 100%;
+    
+    background: linear-gradient(rgba(21, 2, 47, 0.5), rgba(0, 0, 0, 0.5)), url(images/7reo07feeasf1.png) no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+
+    z-index: 1;
+
 }
+
+
 
 .characters-title{
     font-size: 36px;
@@ -219,11 +233,13 @@ filter: blur(40.6px);
     text-align: center;
 }
 
-.character-text-div{
+.character-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-left: 10%;
 }
 
 .character-decoration{
@@ -232,5 +248,46 @@ filter: blur(40.6px);
     
     filter: none;
 
+}
+
+.character-image{
+    padding-right: 10%;
+}
+
+.character-text-div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.character-title{
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.n-description{
+
+    background: linear-gradient(rgba(225, 255, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/n-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.character-separator{
+
+    border: 1px solid white;
+    
+}
+
+.v-description{
+    
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/v-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
