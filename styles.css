@@ -451,8 +451,9 @@ footer{
     .character-description{
         flex-direction: column-reverse;
         background-size: cover;
-        background: linear-gradient(rgba(21, 2, 47, 0.3), rgba(0, 0, 0, 0.3)),url(images/7reo07feeasf11111.png) no-repeat right;
+        background: linear-gradient(rgba(21, 2, 47, 0.3), rgba(0, 0, 0, 0.3)),url(images/7reo07feeasf11111.png) no-repeat fixed right ;
         background-size: cover;
+        background-position: 50%;
     }
 
     .character-text{
@@ -460,14 +461,29 @@ footer{
     }
 
     .n-description{
-        background: linear-gradient(rgba(225, 255, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/n-background-for-phone.png) no-repeat center;
+        background: linear-gradient(rgba(225, 255, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/n-background-for-phone.png) no-repeat center fixed;
         background-size: cover;
         flex-direction: column;
     }
 
     .v-description{
-        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/v-background-for-phone.png) no-repeat center;
+        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/v-background-for-phone.png) no-repeat center fixed;
         background-size: cover;
+        
+    }
+
+    .fan-art{
+        flex-direction: column;
+    }
+
+    .fan-art-div{
+       width: 80%;
+    }
+
+    .fan-art-image{
+        width: 100%;
+        height: 400px;
+
         
     }
 }
