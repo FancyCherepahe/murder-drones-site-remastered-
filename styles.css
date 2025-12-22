@@ -393,7 +393,81 @@ footer{
 }
 
 @media only screen and (max-width: 430px) {
+    header{
+        height: 50px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+
+        margin-left: 30%;
+    }
+
     .nav-link{
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .main-content-decoration{
+    
+        display: none;
+    
+    }
+
+    #phone-main-content-div{
+        background: linear-gradient(rgba(21, 2, 47, 0.3), rgba(0, 0, 0, 0.3)),url(images/uzi-image-1.png) no-repeat center;
+        background-size: cover;
+        padding: 13%;
+        text-align: center;
+    }
+
+    .main-content-image{
+        display: none
+    }
+
+    .recap-decoration{
+        display: none;
+    }
+
+    .recap-image{
+        display: none;
+    }
+
+    .recap-div{
+        background: linear-gradient(rgba(21, 2, 47, 0.3), rgba(0, 0, 0, 0.3)),url(images/copper9-wasteland.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .recap-text{
+        font-size: 18px;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .character-image{
+        padding: 0;
+    }
+
+    .character-description{
+        flex-direction: column-reverse;
+        background-size: cover;
+        background: linear-gradient(rgba(21, 2, 47, 0.3), rgba(0, 0, 0, 0.3)),url(images/7reo07feeasf11111.png) no-repeat right;
+        background-size: cover;
+    }
+
+    .character-text{
+        padding: 10%;
+    }
+
+    .n-description{
+        background: linear-gradient(rgba(225, 255, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/n-background-for-phone.png) no-repeat center;
+        background-size: cover;
+        flex-direction: column;
+    }
+
+    .v-description{
+        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/v-background-for-phone.png) no-repeat center;
+        background-size: cover;
+        
     }
 }
