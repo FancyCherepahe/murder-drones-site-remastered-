@@ -1,3 +1,7 @@
+function alertBeta() {
+    alert("Global chat is currently in beta. Please report any bugs to the developer. Thank you for your understanding!")
+}
+
 let startButton = document.querySelector('.start-button');
 let playgroundImage = document.querySelector('.playground-image');
 let scoreDisplay = document.querySelector('.score-display');
