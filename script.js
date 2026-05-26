@@ -3,7 +3,7 @@ let discordLinksDisplayState = false;
 function showDiscordLinks() {
     const discordLinks = [
         
-        {link: "https://discord.gg/WFJnEfFAtt", name: 'Murder Drones "Official"', img: "images/logo.png"},
+        {link: "https://discord.gg/WFJnEfFAtt", name: 'JCJenson Space Corps', img: "images/logo.png"},
         
         {link: "https://discord.gg/67W39DqJ9G", name: "Aure`s Basement", img: "images/logo.png"},
     
