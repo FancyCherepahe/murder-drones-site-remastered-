@@ -7,7 +7,9 @@ function showDiscordLinks() {
         
         {link: "https://discord.gg/67W39DqJ9G", name: "Aure`s Basement", img: "images/logo.png"},
     
-        {link: "https://discord.gg/YqUVXjVJRE", name: "Uzi`s Basement", img: "images/logo.png"}
+        {link: "https://discord.gg/YqUVXjVJRE", name: "Uzi`s Basement", img: "images/logo.png"},
+
+        {link: "https://discord.gg/JuNCVs4VDM", name: "V Simp United", img: "images/logo.png"}
     ];
     const discordLinksDiv = document.querySelector(".discord-links-div");
     discordLinksDisplayState = !discordLinksDisplayState;
