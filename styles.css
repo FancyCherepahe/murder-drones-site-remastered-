@@ -224,7 +224,7 @@ filter: blur(40.6px);
 
     width: 100%;
     
-    background: linear-gradient(rgba(21, 2, 47, 0.5), rgba(0, 0, 0, 0.5)), url(images/7reo07feeasf1.png) no-repeat fixed;
+    background: linear-gradient(rgba(21, 2, 47, 0.75), rgba(0, 0, 0, 0.75)), url(images/7reo07feeasf1.png) no-repeat fixed;
     background-size: cover;
 
     position: relative;
@@ -248,12 +248,12 @@ filter: blur(40.6px);
 }
 
 .character-text{
+    width:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    padding-left: 10%;
 }
 
 .character-decoration{
@@ -266,6 +266,11 @@ filter: blur(40.6px);
 
 .character-image{
     padding-right: 10%;
+}
+
+.character-image-left{
+    padding-left: 6%;
+    height: 422px;
 }
 
 .character-text-div{
@@ -286,7 +291,7 @@ filter: blur(40.6px);
 
 .n-description{
 
-    background: linear-gradient(rgba(225, 255, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/n-background.png) no-repeat fixed;
+    background: linear-gradient(rgba(225, 255, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/n-background.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
 
@@ -300,10 +305,28 @@ filter: blur(40.6px);
 
 .v-description{
     
-    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/v-background.png) no-repeat fixed;
+    background: linear-gradient(rgba(255, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/v-background.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
 
+}
+
+.j-description{
+    background: linear-gradient(rgba(5, 31, 78, 0.75), rgba(0, 0, 0, 0.75)), url(images/j-background.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.doll-description{
+    background: linear-gradient(rgba(129, 2, 2, 0.75), rgba(0, 0, 0, 0.75)), url(images/doll-background.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.cyn-description{
+    background: linear-gradient(rgba(48, 1, 1, 0.75), rgba(0, 0, 0, 0.75)), url(images/cyn-background.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .fan-art {
@@ -485,6 +508,10 @@ footer{
         padding: 0;
     }
 
+    .character-image-left{
+        padding: 0%;
+    }
+
     .character-description{
         flex-direction: column-reverse;
         background-size: cover;
@@ -507,6 +534,25 @@ footer{
         background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/v-background-for-phone.png) no-repeat center fixed;
         background-size: cover;
         
+    }
+
+    .j-description{
+        background: linear-gradient(rgba(5, 31, 78, 0.3), rgba(0, 0, 0, 0.3)), url(images/j-background.jpg) no-repeat center fixed;
+        background-size: cover;
+        flex-direction: column;
+    }
+
+    .doll-description{
+        background: linear-gradient(rgba(129, 2, 2, 0.75), rgba(0, 0, 0, 0.75)), url(images/doll-background-for-phone.png) no-repeat fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cyn-description{
+        background: linear-gradient(rgba(48, 1, 1, 0.75), rgba(0, 0, 0, 0.75)), url(images/cyn-background.png) no-repeat fixed;
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
     }
 
     
